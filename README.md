@@ -4,10 +4,29 @@ En mi caso lo utilizo en conjunto con el script de HTB de S4vitar.<br>
 ![my_wm](screen_02.png)
 
 ![my_wm](screen_01.png)
+<br><br>
+## Dependencias
 
+```
+PyQt5
+httpx
+```
+<br>
+Para instalarlas puedes utilizar:
+
+```
+pip install -r requirements.txt
+```
+
+<br>
+
+## Uso
 Para utilizarlo se debe tener ya un modulo en nuestra Polybar en el cual podamos hacer click. En mi caso utilizo uno proporcionado por S4vitar que es para ver nuestra IP de HackTheBox.<br>
 Lo unico que se hace es agregar la linea  ```click-left = ~/.config/polybar/extra-modules/htb_profile/htb_profile.sh &``` apuntando hacia el script.<br>
 Importante mencionar que el script debe estar junto con ```htb_profile.py``` y ```background.png```. En caso de que no quieran el background, se elimina y pueden poner uno de su preferencia, pero debe tener el nombre "background.png".<br><br>
+<br>
+En caso de que no utilicen la ruta ```~/.config/polybar/extra-modules/htb_profile/``` para almacenar el script verifiquen el archivo ```htb_profile.sh``` tambien este apuntando a la ubicacion que deseen.
+<br>
 Modulo modificado agregando el "click-left":
 ```
 [module/htb_status]
