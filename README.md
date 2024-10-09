@@ -38,4 +38,5 @@ click-left = ~/.config/polybar/extra-modules/htb_profile/htb_profile.sh &
 ```
 <br>
 Mencionar que la API Key debe ir en el script python.<br>
+
 ![api](api-key.png)
