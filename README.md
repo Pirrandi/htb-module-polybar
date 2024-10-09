@@ -1,9 +1,9 @@
 # HTB Profile Module Polybar
 
 En mi caso lo utilizo en conjunto con el script de HTB de S4vitar.<br>
-![my_wm](screen_02.png)
+![screen01](screen_02.png)
 
-![my_wm](screen_01.png)
+![screen02](screen_01.png)
 <br><br>
 ## Dependencias
 
@@ -17,7 +17,6 @@ Para instalarlas puedes utilizar:
 ```
 pip install -r requirements.txt
 ```
-
 <br>
 
 ## Uso
@@ -37,3 +36,6 @@ format-background = ${custom.HTB}
 exec = ~/.config/polybar/extra-modules/htb_status.sh
 click-left = ~/.config/polybar/extra-modules/htb_profile/htb_profile.sh &
 ```
+<br>
+Mencionar que la API Key debe ir en el script python.<br>
+![api](api-key.png)
